@@ -1,0 +1,114 @@
+.sub-title {
+    color: #888;
+    font-size: 14px;
+    padding: 15px 0 9px 15px;
+}
+
+.not-square-grid .am-grid-icon {
+    width: 40px;
+    height: 60px;
+}
+
+.tuijian {
+    overflow: hidden;
+    margin-left: 5px;
+}
+
+.tuijian .tuijian_detail {
+    width: 120px;
+    height: 130px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid darkblue; */
+}
+
+.tuijian .tuijian_detail img {
+    width: 90px;
+    height: 90px;
+    margin: 0 0 0 15px;
+}
+
+.tuijian .tuijian_detail span {
+    /* text-align: center; */
+    margin: 5px 5px 10px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    /*! autoprefixer: off */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.music {
+    margin: 10px 0;
+}
+
+.music .music_detail {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin: 10px 0;
+    background-color: burlywood;
+}
+
+.music .music_detail h3 {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.music .music_detail button {
+    width: 100px;
+    margin: 10px 0;
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+    color: #fff;
+    background-color: blueviolet;
+}
+
+
+.title{
+    padding: 10px;
+    background-color: darkblue;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title span{
+    font-size: 16px;
+    padding: 10px;
+}
+
+.content{
+    margin-top: 10px;
+    position: relative;
+    background-color: black;
+}
+
+.content span{
+    font-size: 10px;
+    display: inline-block;
+    color: bisque;
+    padding: 5px;
+}
+.content span:nth-child(1){
+    font-size: 14px;
+    color: cadetblue;
+    display: inline-block;
+    padding: 5px;
+}
+
+.content button{
+    position: absolute;
+    border-radius: 8px;
+    border: 0;
+    background-color: rgba(218, 26, 26, 0.7);
+    color:#FFF;
+    height: 30px;
+    top:  10px;
+    right: 10px;
+}

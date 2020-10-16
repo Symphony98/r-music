@@ -1,5 +1,5 @@
 'use strict';
-
+const px2rem = require('postcss-px2rem-exclude');
 const fs = require('fs');
 const path = require('path');
 const webpack = require('webpack');
@@ -104,6 +104,7 @@ module.exports = function(webpackEnv) {
             // so that it honors browserslist config in package.json
             // which in turn let's users customize the target behavior as per their needs.
             postcssNormalize(),
+            px2rem({remUnit:37.5,exclude: /node_modules/i})
           ],
           sourceMap: isEnvProduction && shouldUseSourceMap,
         },
@@ -298,6 +299,7 @@ module.exports = function(webpackEnv) {
           'scheduler/tracing': 'scheduler/tracing-profiling',
         }),
         ...(modules.webpackAliases || {}),
+        "@": paths.appSrc,
       },
       plugins: [
         // Adds support for installing with Plug'n'Play, leading to faster installs and adding

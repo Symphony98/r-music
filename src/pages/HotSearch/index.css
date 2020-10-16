@@ -1,0 +1,77 @@
+.top {
+    height: 146px;
+    padding-left: 20px;
+    background-image: url("./../../assient/img/hot_music_bg_2x.jpg");
+    background-size: 100% 146px;
+    color: #fff;
+    overflow: hidden;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.top p:nth-child(1) {
+    font-size: 20px;
+    margin: 8px 0 8px 0;
+}
+
+.top p:nth-child(2) {
+    font-size: 50px;
+}
+
+.top p:nth-child(3) {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.hot_content {
+    background-color: #fff;
+}
+
+.hot_content button {
+    display: block;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(19, 54, 121, .7);
+    color: #fff;
+    border: 0;
+    margin: 0 auto;
+}
+
+.hot_content .hot_content_list {
+    padding: 10px 0 10px 10px;
+    margin: 5px 0;
+    color: #fff;
+    font-size: 14px;
+    background-color: rgba(19, 54, 121, .7);
+    overflow: hidden;
+}
+
+.hot_content .hot_content_list span:nth-child(1) {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    /* margin-top: 5px; */
+}
+
+.hot_content .hot_content_list span:nth-child(2) {
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.hot_content .hot_content_list button {
+    float: right;
+    margin-right: 8px;
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+}

@@ -1,0 +1,33 @@
+.search_main {
+    width: 100%;
+}
+
+.search_main .main {
+    width: 100%;
+    padding: 0 10px;
+    position: relative;
+    background-color: #fff;
+}
+
+.search_main .main .main_btn {
+    position: absolute;
+    height: 30px;
+    right: 10px;
+    top: 8px;
+}
+
+.search_main .btn {
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin: 10px auto;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgba(61, 116, 11, .7);
+    border: 0;
+    border-radius: 10px;
+}
+
+.search_main p {
+    text-align: center;
+}
